@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B33862D028C709AA008AE3A3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33862CF28C709AA008AE3A3 /* NextViewController.swift */; };
 		B3EF437028B9E5690077787F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF436F28B9E5690077787F /* AppDelegate.swift */; };
 		B3EF437228B9E5690077787F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF437128B9E5690077787F /* SceneDelegate.swift */; };
 		B3EF437428B9E5690077787F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF437328B9E5690077787F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B33862CF28C709AA008AE3A3 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		B3EF436C28B9E5690077787F /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EF436F28B9E5690077787F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3EF437128B9E5690077787F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				B3EF437128B9E5690077787F /* SceneDelegate.swift */,
 				B3EF437328B9E5690077787F /* ViewController.swift */,
 				B3EF437528B9E5690077787F /* Main.storyboard */,
+				B33862CF28C709AA008AE3A3 /* NextViewController.swift */,
 				B3EF437828B9E56A0077787F /* Assets.xcassets */,
 				B3EF437A28B9E56A0077787F /* LaunchScreen.storyboard */,
 				B3EF437D28B9E56A0077787F /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3EF437428B9E5690077787F /* ViewController.swift in Sources */,
+				B33862D028C709AA008AE3A3 /* NextViewController.swift in Sources */,
 				B3EF437028B9E5690077787F /* AppDelegate.swift in Sources */,
 				B3EF437228B9E5690077787F /* SceneDelegate.swift in Sources */,
 			);
