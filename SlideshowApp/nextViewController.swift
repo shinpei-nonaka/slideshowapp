@@ -9,10 +9,15 @@ import UIKit
 
 class NextViewController: UIViewController {
 
-
+    var aaa: String!
+    
+    @IBOutlet weak var jkbk: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(aaa)
+        jkbk.image = UIImage(named: aaa)
 
     }
     

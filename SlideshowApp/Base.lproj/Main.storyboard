@@ -78,7 +78,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="IP2-Eh-SNh">
                     <connections>
-                        <segue destination="xUY-Cm-POz" kind="presentation" id="sy9-M4-VHX"/>
+                        <segue destination="xUY-Cm-POz" kind="presentation" identifier="gazou" id="sy9-M4-VHX"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -87,7 +87,7 @@
         <!--Next View Controller-->
         <scene sceneID="iXk-jS-AFm">
             <objects>
-                <viewController id="xUY-Cm-POz" customClass="NextViewController" sceneMemberID="viewController">
+                <viewController id="xUY-Cm-POz" customClass="NextViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xs1-DN-kKq" customClass="NextViewController">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,6 +115,9 @@
                             <constraint firstItem="hdJ-Ri-H8S" firstAttribute="top" secondItem="xXZ-Tq-xoQ" secondAttribute="top" constant="10" id="Sd7-qx-vTB"/>
                             <constraint firstItem="xXZ-Tq-xoQ" firstAttribute="trailing" secondItem="hdJ-Ri-H8S" secondAttribute="trailing" id="cdf-2v-1sR"/>
                         </constraints>
+                        <connections>
+                            <outlet property="jkbk" destination="hdJ-Ri-H8S" id="z5s-Fd-RjB"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDA-j2-2gD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

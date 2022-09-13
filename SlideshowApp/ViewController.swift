@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var beta: UIImageView!
     let imageName = ["petfish_pefaaaa2015", "photo020_b" ,"c18c85_10a2f59c275c425c866c2a082823c05b_mv2"]
     var changeImage = 0
-    
+
     
     @IBAction func next(_ sender: Any) {
     if changeImage == 0 {
@@ -71,10 +71,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         beta.image = UIImage(named: "petfish_pefaaaa2015")
         // Do any additional setup after loading the view.
-        
-        
-        
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のResultViewControllerを取得する
+        let resultViewController:NextViewController = segue.destination as! NextViewController
+
+        resultViewController.aaa = imageName[changeImage]
+    }
+
 
 }
 
