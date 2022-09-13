@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var beta: UIImageView!
     let imageName = ["petfish_pefaaaa2015", "photo020_b" ,"c18c85_10a2f59c275c425c866c2a082823c05b_mv2"]
     var changeImage = 0
-
+    var bbb: String!
     
     @IBAction func next(_ sender: Any) {
     if changeImage == 0 {
@@ -69,7 +69,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        beta.image = UIImage(named: "petfish_pefaaaa2015")
+        
+        let aaa = imageName[changeImage]
+        beta.image = UIImage(named: aaa)
         // Do any additional setup after loading the view.
     }
     

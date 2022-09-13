@@ -11,17 +11,21 @@ class NextViewController: UIViewController {
 
     var aaa: String!
     
+
     @IBOutlet weak var jkbk: UIImageView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(aaa)
         jkbk.image = UIImage(named: aaa)
 
     }
     
 
+    
+
+    @IBAction func ccc(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
     /*
     // MARK: - Navigation
 
